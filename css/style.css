@@ -1,0 +1,202 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #312734;
+    margin: 0;
+    padding: 0;
+}
+
+.logotipo{
+    font-size: 2.0rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+}
+
+header{
+    padding: 20px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    padding: 0;
+    text-decoration: none;
+    color: aliceblue;
+
+    align-items: center;
+}
+
+.menu-icon{
+    display: none;/* ----------------------------------------------*/
+    width: 50px;
+    height: 50px;
+}
+
+.mensaje>h2{
+    font-size: 3.4rem;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.mensaje>p{
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-top: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    margin-bottom: 35px;
+}
+
+.contacto{
+    display: none;/*---------------------------------------------------------------------*/
+    flex-direction: column;
+}
+
+.contacto input{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    border: none;
+    padding: 12px;
+    margin: 0;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-size: 1.8rem;
+}
+
+.contacto button{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    border: none;
+    padding: 12px;
+    margin: 0;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    background: #915FEE;
+    color: #ffffff;
+}
+
+.clientes{
+    padding: 0 20px;
+}
+
+.clientes>p{
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+}
+
+.list--clientes>img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+main{
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main h3{
+    font-size: 2.0rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0;
+    padding: 0px 20px;
+}
+.card img{
+    width: 90px;
+}
+.card .title-card{
+    font-size: 1.8rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card .texto{
+    font-size: 1.6rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+}
+
+aside{
+    padding: 0 20px;
+}
+
+aside p, li{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    border: none;
+    margin: 0;
+    font-size: 1.8rem;
+    list-style-type: circle;
+}
+
+aside button{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    border: none;
+    margin: 0;
+    padding: 7px 25px;
+    border-radius: 25px;
+    font-size: 1.8rem;
+    background: #915FEE;
+    color: #ffffff;
+}
+
+footer{
+    background: #312734;
+    padding: 0 20px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 1.8rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+form{
+    display: none;/*------------------------------------------------*/
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (min-width: 992px) {
+    body {
+      display: none;
+    }
+  }
